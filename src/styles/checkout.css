@@ -1,0 +1,136 @@
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 5%;
+
+    align-items: stretch; /* Make both sections the same height */
+}
+
+.checkout-left {
+    flex: 2;
+    padding: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 50%;
+}
+
+.checkout-right {
+    flex: 1;
+    padding: 20px;
+    margin-right: 6%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+
+    justify-content: space-between; /* Pushes content apart */
+    min-height: 400px; /* Adjust as needed */
+}
+
+.checkout-restaurant {
+    margin-bottom: 10px;
+}
+
+.checkout-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.checkout-controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #28a745;
+    border-radius: 4px;
+}
+
+.remove-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.checkout-totals {
+    display: flex;
+    flex-direction: column;
+    margin-right: 9%;
+    gap: 5px;
+    max-width: 300px; /* Adjust as needed */
+    margin-left: auto; /* Align to the right */
+}
+
+.totals-row {
+    display: flex;
+    justify-content: space-between;  
+    width: 100%;
+}
+
+.address-row {
+    display: flex;
+    justify-content: space-between;  
+    width: 100%;
+}
+
+.totals-label {
+    text-align: right;
+    margin-right: 4%;
+    flex: 1;
+    font-weight: bold;
+}
+
+.address-lable{
+    text-align: left;
+    margin-right: 4%;
+    flex: 1;
+      
+}
+
+.totals-value {
+    text-align: left;
+    flex: 1;
+}
+
+.address-value {
+    text-align: right;
+    flex: 1; 
+}
+
+.total-bold {
+    font-weight: bold;
+}
+
+.order-btn {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    align-self: center; /* Center the button */
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+.checkout-right-order{
+    margin-right: 1%;
+    margin-left: 1%;
+    
+    margin-top: auto; /* Pushes the button to the bottom */
+    margin-bottom: 20px;
+}
